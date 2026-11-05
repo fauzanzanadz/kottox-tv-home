@@ -17,7 +17,7 @@ Nyalakan USB debugging di TV, lalu unduh APK dari halaman [Releases](../../relea
 
 ```bash
 adb connect ALAMAT_IP_TV:5555
-adb install -r Kottox-TV-Home-0.4.0.apk
+adb install -r Kottox-TV-Home-*.apk
 ```
 
 Aplikasi ini tidak otomatis menjadi launcher utama selama launcher Google masih aktif. Mematikan launcher Google dapat menghilangkan panel cepat dari tombol setelan remote dan membuat Wi-Fi TV meminta sandi lagi. Lakukan dengan risiko sendiri.
